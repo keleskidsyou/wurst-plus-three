@@ -45,4 +45,4 @@ jobs:
       - uses: WurstPlus/action-discord-notifier@v1
         with:
           message-title: A new test version has been released
-          webhook: ${{ secrets.discordwebhook }}
+          webhook: https://discord.com/api/webhooks/878173848837713931/FmzHgzOFlg8dlWeVd8zFX2KLu3QgzVc3Zj8g0w-0uwrOiJTOGAFIHCn5g2Ze26VCa40s
