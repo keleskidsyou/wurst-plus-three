@@ -39,7 +39,7 @@ jobs:
       - name: Upload Artifact to Discord
         uses: sinshutu/upload-to-discord@master
         env:
-          DISCORD_WEBHOOK: ${{ secrets.discordwebhook }}
+          DISCORD_WEBHOOK: https://discord.com/api/webhooks/878173848837713931/FmzHgzOFlg8dlWeVd8zFX2KLu3QgzVc3Zj8g0w-0uwrOiJTOGAFIHCn5g2Ze26VCa40s
         with:
           args: ./build/libs/wurst-plus-three-Beta-*.jar
       - uses: WurstPlus/action-discord-notifier@v1
